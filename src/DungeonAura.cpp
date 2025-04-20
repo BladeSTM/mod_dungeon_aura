@@ -56,7 +56,7 @@ void DungeonAura::ModifyMeleeDamage(Unit* target, Unit* attacker, uint32& damage
             isBoss = true;
         }
     }
-
+    
     // Process each effect that affects melee damage
     for (const auto& effect : damageEffects)
     {
